@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #d39797;
+}
+.progressBar {
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+	border: 1px solid #ffe9ee;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.progressBar .progressStepWrapper {
+/*	border-right: 1px solid #c3405f;*/
+	width: 100%;
+}
+.progressBar .progressStepWrapper .progressStepSignWrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.progressBar .progressStepWrapper .progressStep {
+	background: #ffccd3;
+	height: 100%;
+}
+.progressBar .progressStepWrapper .progressStepSign {
+	text-align: center;
+}
+button.start
+{
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+	background: none;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ffe9ee;
+}
+button.start:hover {
+	background: #ffccd3;
+	color: #fff;
+}
+input.points {
+	padding-left: 10px;
+	color: black;
+	width: 300px;
+	height: 30px;
+	background: none;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-style: solid;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #ffe9ee;
+}
