@@ -115,10 +115,8 @@ const dubug = {
 	},
 	setPoints(points)
 	{
-		if (dubugApi.setPoints(points)) {
+		if (dubugApi.setPoints(points))
 			progressBar.setPoints(points);
-			document.querySelector('.points').value = data.points;
-		}
 	}
 }
 
