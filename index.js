@@ -67,7 +67,7 @@ const progressBar = {
 		stepSignMin.textContent = this.steps[step].min;
 		let stepSignMax = document.createElement('span');
 		stepSignMax.classList.add(this.stepSignClass);
-		stepSignMax.textContent = this.steps[step].max + '|';
+		stepSignMax.textContent = this.steps[step].max;
 
 		stepSignWrapper.appendChild(stepSignMin);
 		stepSignWrapper.appendChild(stepSignMax);
@@ -102,7 +102,7 @@ const progressBar = {
 	},
 }
 
-let dubugJsondb = '{"points":130,"steps":[{"min":0,"max":100},{"min":100,"max":400},{"min":400,"max":1600}]}';
+let dubugJsondb = '{"points":130,"steps":[{"min":0,"max":100},{"min":200,"max":400},{"min":400,"max":1600},{"min":1600,"max":5000}]}';
 
 const dubug = {
 	init()

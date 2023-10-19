@@ -15,10 +15,10 @@
 	flex-wrap: nowrap;
 }
 .progressBar .progressStepWrapper {
-/*	border-right: 1px solid #c3405f;*/
 	width: 100%;
 }
 .progressBar .progressStepWrapper .progressStepSignWrapper{
+	border-right: 1px solid #ffe9ee;
 	display: flex;
 	justify-content: space-between;
 }
@@ -39,7 +39,7 @@ button.start
 	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	border: 1px solid #ffe9ee;
+	border: 2px solid #ffe9ee;
 }
 button.start:hover {
 	background: #ffccd3;
@@ -58,5 +58,5 @@ input.points {
 	border-style: solid;
 	outline: none;
 	border: none;
-	border-bottom: 1px solid #ffe9ee;
+	border-bottom: 2px solid #ffe9ee;
 }
